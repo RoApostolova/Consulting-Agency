@@ -1,0 +1,222 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    word-wrap: break-word;
+}
+body{
+    font-size: 14px;
+    margin: 0;
+}
+.site-header{
+    background: url(images/Layer-759_02.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+nav.top-navigation{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+nav.top-navigation ul{
+    background: rgba(199,157,99,.9);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav.top-navigation ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav.top-navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav.top-navigation ul li a:hover{
+    color: rgb(251, 199, 123);
+}
+nav.top-navigation ul li a.selected{
+    color: rgb(251, 199, 123);
+}
+section.slider{
+    text-align: center;
+}
+section.slider h1{
+   color:white;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+    font-size: 3em;
+    margin: 70px;
+}
+section.slider p{
+    color:white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(150,150,150,0.4);
+    box-shadow: 0 0 15px 15px rgba(150,150,150,0.4);
+    text-shadow: 0 0 5px black;
+}
+section.slider .slider-button{
+    display: inline-block;
+    color: white;
+    background: #0c4a70;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+section.slider .slider-button .fa-chevron-right{
+    color: #c79d63;
+}
+section.slider .slider-button:hover,section.slider .slider-button:hover .fa-chevron-right{
+    background: #c79d63;
+    color: black;
+}
+section.industries{
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.industries article{
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.industries .icon{
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 45px;
+    float: left;
+}
+.industries article h2,.industries article p{
+    text-align: left;
+    margin-left: 64px;
+}
+.industries article h2{
+    font-size: 1.2em;
+}
+.mission{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url('images/steel-bg.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    padding: 10px 0;
+}
+.mission h1{
+    color: #c79d63;
+}
+.benefits{
+    padding: 10px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('images/background-choose-us.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.benefits article{
+    width: 270px;
+    border: 2px solid #c79d63;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.benefits article a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.benefits article a:hover{
+    background: rgba(255,255,255,0.8);
+    color: black;
+}
+section.testimonials{
+    background: url('images/consulting-woman.jpg');
+    background-size: cover;
+    text-align: right;
+}
+article.testimonial{
+    background: rgba(255,255,255,0.5);
+    width: 400px;
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+}
+article.testimonial .author{
+    background: #0c4a70;
+    color: white;
+    min-height: 200px;
+    padding: 10px;
+}
+article.testimonial .author .name{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+}
+.partners{
+    text-align: center;
+}
+.partners li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.site-footer{
+    background: #0c4a70;
+    text-align: center;
+}
+.site-footer section{
+    vertical-align: top;
+    color: white;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.site-footer .consulting p{
+    margin-left: 30px;
+}
+.site-footer .social-links a{
+    text-decoration: none;
+    color: white;
+    background: rgba(255,255,255,0.5);
+    font-size: 2em;
+    margin: 7px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px;
+}
+.site-footer .extra-links .first-column{
+    margin-left: 30px;
+}
+.site-footer .extra-links div{
+    display: inline-block;
+    width: calc(50% - 40px);
+    vertical-align: top;
+}
+.site-footer .extra-links a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 5px;
+}
+.site-footer .extra-links a:hover{
+    color: #c79d63;
+}
+.site-footer .instagram-widget li{
+    display: inline-block;
+}
+.site-footer .instagram-widget img{
+    width: 70px;
+    height: 70px;
+}
